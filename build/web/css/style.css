@@ -1,0 +1,143 @@
+.nav{
+    background-color: #00008b ;
+    width: 100%;
+    height: 60px;
+    float: left;
+    border: 5px solid wheat;
+}
+
+.nav ul li{
+
+    display: inline-block;
+    margin: 0 50px;
+}
+.nav ul li a{
+
+    line-height: 50px;
+    font-size:18px;
+    text-transform: uppercase;
+    color:white;
+    font-weight: bold;    
+}
+ul{
+    display: inline;
+}
+body{
+    background-color:rgb(140, 137, 155);
+}
+.formcontaier{
+    
+    width: 100%;
+
+}
+.form{
+        margin-top: 40px;
+
+    width: 50%;
+    padding: 30px;
+    margin:0 auto ;
+
+    background-color: rgb(129, 126, 146);
+    border-radius: 20px;
+    border:4px solid #00008b;
+
+
+}
+
+.ads1{
+    font-size: 48px;
+
+    font-weight: bold;
+    text-align: center;
+    color:black;
+
+}
+
+.clearfix::after {
+    content: "";
+    clear: both ;
+    display: table;
+}
+
+
+input,select ,textarea,radio,input[type=text]
+{
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid  ;
+    color:white;
+    font-size: 18px;
+    padding:10px;
+    background-color: #00008b ;
+    font-weight: bold;
+    font-style: italic;
+
+}
+input:focus,select:focus ,textarea:focus{
+    background-color: white;
+    color:#233D4D;
+    border: 2px solid  #00008b ;
+
+}
+input::placeholder , select::placeholder,textarea::placeholder
+{
+    color:white;
+}
+.send{
+    background-color:#00008b ;
+    text-align: center;
+    margin: 0 auto ;
+    display: block;
+    width: 380px;
+    padding: 20px;
+    border:5px solid white; 
+    border-radius: 40px;
+    margin-top: 80px;
+    font-size: 24px;
+}
+.btn:hover{
+    cursor:pointer;
+    background-color:white ;
+    color:#00008b;
+    border:5px solid #00008b; 
+
+}
+
+label{
+    color:#00008b;
+    font-size: 18px;
+    padding-top: 10px;
+    margin-left: 20px;
+    width: 60%;
+
+}
+
+.in{
+    margin-top:20px ;
+    margin-bottom:10px ;
+    width: 100%;
+
+}
+
+
+#tbl{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#tbl td, #tbl th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+
+#tbl tr:hover {background-color: #00008b;}
+
+#tbl th {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: wheat;
+  color: white;
+}
